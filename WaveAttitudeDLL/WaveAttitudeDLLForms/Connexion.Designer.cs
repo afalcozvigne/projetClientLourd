@@ -71,14 +71,16 @@
             this.nomCompte.Name = "nomCompte";
             this.nomCompte.Size = new System.Drawing.Size(141, 20);
             this.nomCompte.TabIndex = 4;
+            this.nomCompte.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nomCompte_KeyPress);
             // 
             // motdepasseCompte
             // 
             this.motdepasseCompte.Location = new System.Drawing.Point(138, 69);
             this.motdepasseCompte.Name = "motdepasseCompte";
-            this.motdepasseCompte.PasswordChar = '*';
             this.motdepasseCompte.Size = new System.Drawing.Size(141, 20);
             this.motdepasseCompte.TabIndex = 5;
+            this.motdepasseCompte.UseSystemPasswordChar = true;
+            this.motdepasseCompte.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.motdepasseCompte_KeyPress);
             // 
             // m_compteinexistant
             // 

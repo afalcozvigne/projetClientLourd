@@ -97,11 +97,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>waveattitudeDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="waveattitudeDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>waveattitudeDataSet1.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,17 +140,6 @@
     </None>
     <None Include="waveattitudeDataSet.xss">
       <DependentUpon>waveattitudeDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="waveattitudeDataSet1.xsc">
-      <DependentUpon>waveattitudeDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="waveattitudeDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>waveattitudeDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="waveattitudeDataSet1.xss">
-      <DependentUpon>waveattitudeDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

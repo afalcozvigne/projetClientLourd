@@ -67,5 +67,17 @@ namespace WaveAttitudeDLLForms
         {
             MessageBox.Show("Veuillez contacter un responsable pour enregistrer un nouveau compte");
         }
+
+        private void nomCompte_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                motdepasseCompte.Focus();
+        }
+
+        private void motdepasseCompte_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                m_connexion.PerformClick();
+        }
     }
 }
