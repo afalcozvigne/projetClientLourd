@@ -60,7 +60,7 @@
             this.dataGridView1.DataSource = this.personnelBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 97);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(446, 108);
+            this.dataGridView1.Size = new System.Drawing.Size(444, 108);
             this.dataGridView1.TabIndex = 0;
             // 
             // idpersonnelDataGridViewTextBoxColumn
@@ -123,7 +123,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(529, 225);
+            this.button2.Location = new System.Drawing.Point(112, 211);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 30);
             this.button2.TabIndex = 3;
@@ -132,7 +132,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(635, 225);
+            this.button3.Location = new System.Drawing.Point(212, 211);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 30);
             this.button3.TabIndex = 4;
@@ -142,7 +142,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(741, 225);
+            this.button4.Location = new System.Drawing.Point(312, 211);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 30);
             this.button4.TabIndex = 5;
@@ -151,11 +151,11 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(464, 97);
+            this.button5.Location = new System.Drawing.Point(12, 211);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(188, 108);
+            this.button5.Size = new System.Drawing.Size(100, 30);
             this.button5.TabIndex = 6;
-            this.button5.Text = "UPDATE";
+            this.button5.Text = "Mettre A Jour";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
