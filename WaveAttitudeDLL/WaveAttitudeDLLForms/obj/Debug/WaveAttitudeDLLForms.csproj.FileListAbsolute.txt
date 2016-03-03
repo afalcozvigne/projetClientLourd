@@ -12,3 +12,17 @@ C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAtt
 C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Infocompte.resources
 C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personalisation.resources
 C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personnel.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.exe.config
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.exe
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.pdb
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.exe
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.pdb
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\MySql.Data.dll
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.csprojResolveAssemblyReference.cache
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Accueil.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Connexion.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Infocompte.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personalisation.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personnel.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Properties.Resources.resources
+C:\wamp\www\PPE\ClientLourd\projetClientLourd\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.csproj.GenerateResource.Cache
