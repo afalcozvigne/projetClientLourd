@@ -1,0 +1,14 @@
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.exe.config
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.exe
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\WaveAttitudeDLLForms.pdb
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Properties.Resources.resources
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.csproj.GenerateResource.Cache
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.exe
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.pdb
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Connexion.resources
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Accueil.resources
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Infocompte.resources
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personalisation.resources
+C:\Users\Alexandre\Documents\Visual Studio 2012\Projects\WaveAttitudeDLL\WaveAttitudeDLLForms\obj\Debug\WaveAttitudeDLLForms.Personnel.resources
