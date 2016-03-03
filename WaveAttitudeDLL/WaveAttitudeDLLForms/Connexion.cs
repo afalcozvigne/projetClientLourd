@@ -57,7 +57,8 @@ namespace WaveAttitudeDLLForms
             }
             else
             {
-                MessageBox.Show("Mot de passe faux ou nom de commpte inexistant");
+                MessageBox.Show("Mot de passe faux ou nom de compte inexistant");
+                m_connexion.Text = "Connexion";
             }
             conn.Close();
         }
