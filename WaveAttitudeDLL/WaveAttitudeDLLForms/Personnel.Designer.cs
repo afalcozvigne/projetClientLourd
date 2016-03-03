@@ -42,14 +42,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.idPersonnel = new System.Windows.Forms.Label();
-            this.nomPersonnel = new System.Windows.Forms.Label();
-            this.prenomPersonnel = new System.Windows.Forms.Label();
-            this.agePersonnel = new System.Windows.Forms.Label();
-            this.textBoxAgePersonnel = new System.Windows.Forms.TextBox();
-            this.textBoxPrenomPersonnel = new System.Windows.Forms.TextBox();
-            this.textBoxNomPersonnel = new System.Windows.Forms.TextBox();
-            this.textBoxIdPersonnel = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personnelBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.waveattitudeDataSet1)).BeginInit();
@@ -145,6 +138,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Rechercher";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -155,83 +149,22 @@
             this.button4.Text = "Annuler";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // idPersonnel
+            // button5
             // 
-            this.idPersonnel.AutoSize = true;
-            this.idPersonnel.Location = new System.Drawing.Point(526, 101);
-            this.idPersonnel.Name = "idPersonnel";
-            this.idPersonnel.Size = new System.Drawing.Size(79, 13);
-            this.idPersonnel.TabIndex = 6;
-            this.idPersonnel.Text = "id du personnel";
-            // 
-            // nomPersonnel
-            // 
-            this.nomPersonnel.AutoSize = true;
-            this.nomPersonnel.Location = new System.Drawing.Point(526, 119);
-            this.nomPersonnel.Name = "nomPersonnel";
-            this.nomPersonnel.Size = new System.Drawing.Size(91, 13);
-            this.nomPersonnel.TabIndex = 7;
-            this.nomPersonnel.Text = "nom du personnel";
-            // 
-            // prenomPersonnel
-            // 
-            this.prenomPersonnel.AutoSize = true;
-            this.prenomPersonnel.Location = new System.Drawing.Point(526, 141);
-            this.prenomPersonnel.Name = "prenomPersonnel";
-            this.prenomPersonnel.Size = new System.Drawing.Size(106, 13);
-            this.prenomPersonnel.TabIndex = 8;
-            this.prenomPersonnel.Text = "prenom du personnel";
-            // 
-            // agePersonnel
-            // 
-            this.agePersonnel.AutoSize = true;
-            this.agePersonnel.Location = new System.Drawing.Point(526, 166);
-            this.agePersonnel.Name = "agePersonnel";
-            this.agePersonnel.Size = new System.Drawing.Size(90, 13);
-            this.agePersonnel.TabIndex = 9;
-            this.agePersonnel.Text = "Age du personnel";
-            // 
-            // textBoxAgePersonnel
-            // 
-            this.textBoxAgePersonnel.Location = new System.Drawing.Point(646, 163);
-            this.textBoxAgePersonnel.Name = "textBoxAgePersonnel";
-            this.textBoxAgePersonnel.Size = new System.Drawing.Size(89, 20);
-            this.textBoxAgePersonnel.TabIndex = 10;
-            // 
-            // textBoxPrenomPersonnel
-            // 
-            this.textBoxPrenomPersonnel.Location = new System.Drawing.Point(646, 138);
-            this.textBoxPrenomPersonnel.Name = "textBoxPrenomPersonnel";
-            this.textBoxPrenomPersonnel.Size = new System.Drawing.Size(89, 20);
-            this.textBoxPrenomPersonnel.TabIndex = 11;
-            // 
-            // textBoxNomPersonnel
-            // 
-            this.textBoxNomPersonnel.Location = new System.Drawing.Point(646, 116);
-            this.textBoxNomPersonnel.Name = "textBoxNomPersonnel";
-            this.textBoxNomPersonnel.Size = new System.Drawing.Size(89, 20);
-            this.textBoxNomPersonnel.TabIndex = 12;
-            // 
-            // textBoxIdPersonnel
-            // 
-            this.textBoxIdPersonnel.Location = new System.Drawing.Point(646, 94);
-            this.textBoxIdPersonnel.Name = "textBoxIdPersonnel";
-            this.textBoxIdPersonnel.Size = new System.Drawing.Size(89, 20);
-            this.textBoxIdPersonnel.TabIndex = 13;
+            this.button5.Location = new System.Drawing.Point(464, 97);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(188, 108);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "UPDATE";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Personnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(904, 322);
-            this.Controls.Add(this.textBoxIdPersonnel);
-            this.Controls.Add(this.textBoxNomPersonnel);
-            this.Controls.Add(this.textBoxPrenomPersonnel);
-            this.Controls.Add(this.textBoxAgePersonnel);
-            this.Controls.Add(this.agePersonnel);
-            this.Controls.Add(this.prenomPersonnel);
-            this.Controls.Add(this.nomPersonnel);
-            this.Controls.Add(this.idPersonnel);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -264,13 +197,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label idPersonnel;
-        private System.Windows.Forms.Label nomPersonnel;
-        private System.Windows.Forms.Label prenomPersonnel;
-        private System.Windows.Forms.Label agePersonnel;
-        private System.Windows.Forms.TextBox textBoxAgePersonnel;
-        private System.Windows.Forms.TextBox textBoxPrenomPersonnel;
-        private System.Windows.Forms.TextBox textBoxNomPersonnel;
-        private System.Windows.Forms.TextBox textBoxIdPersonnel;
+        private System.Windows.Forms.Button button5;
     }
 }

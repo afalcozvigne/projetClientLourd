@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace WaveAttitudeDLLForms
 {
     public partial class Personnel : Form
     {
+        MySqlDataAdapter sda;
+        MySqlCommandBuilder scb;
+        DataTable dt;
         public Personnel()
         {
             InitializeComponent();
@@ -19,8 +23,12 @@ namespace WaveAttitudeDLLForms
 
         private void Personnel_Load(object sender, EventArgs e)
         {
-            // TODO: cette ligne de code charge les données dans la table 'waveattitudeDataSet1.personnel'. Vous pouvez la déplacer ou la supprimer selon vos besoins.
-            this.personnelTableAdapter.Fill(this.waveattitudeDataSet1.personnel);
+            MySqlConnection conn = new MySqlConnection("server = localhost; user id = root; database = waveattitude");
+            string textreq = "SELECT id_personnel, nom_personnel, prenom_personnel, age_personnel FROM personnel";
+            sda = new MySqlDataAdapter(textreq,conn );
+            dt = new DataTable();
+            sda.Fill(dt);
+            dataGridView1.DataSource = dt;
 
         }
 
@@ -29,6 +37,17 @@ namespace WaveAttitudeDLLForms
             this.Close();
             Accueil frm = new Accueil();
             frm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            scb = new MySqlCommandBuilder(sda);
+            sda.Update(dt);
         }
     }
 }
