@@ -42,5 +42,10 @@ namespace WaveAttitudeDLLForms
             Personnel frm = new Personnel();
             frm.Show();
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            MessageBox.Show("Au revoir et à bientot");
+            Application.Exit();
+        }
     }
 }

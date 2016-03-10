@@ -29,9 +29,10 @@ namespace WaveAttitudeDLLForms
                 MessageBox.Show("Connexion BDD Effectuer");
                 conn.Close();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("erreur");
+                string erreur = Convert.ToString(ex);
+                MessageBox.Show(erreur);
             }
             #endregion
             nomCompte.Text = "Nom de Compte";
@@ -53,7 +54,7 @@ namespace WaveAttitudeDLLForms
             if(res == mdpcomteverif)
             {
                 Accueil frm = new Accueil();
-                frm.Show();
+                frm.Show();  
             }
             else
             {
